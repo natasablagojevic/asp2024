@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-  int a;
-  int b;
-  int k;
+  int64_t a;
+  int64_t b;
+  int64_t k;
 
-  // int64_t res = (b/k) - (a-1)/k;
+  cin >> a >> b >> k;
 
   if (a == 0)
     cout << ((b/k) + 1) << endl;
